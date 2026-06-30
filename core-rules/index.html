@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Core Rules - HereticTools</title>
+  <link rel="stylesheet" href="/static/desktop.css">
+  <link rel="stylesheet" href="/static/codex.css">
+  <meta name="heretic-base-path" content="">
+  <meta name="heretic-search-index" content="/search-index.json">
+</head>
+<body>
+  <main class="desktop codex-page core-rules-page">
+    <section class="shell" aria-label="Core Rules">
+      <div class="title-bar " role="button" tabindex="0" aria-label="Back to Codex" title="Back to Codex" data-up-href="/">
+        <div class="title">CoreRules</div>
+        <div class="title-controls" aria-hidden="true">
+          <span class="title-control">x</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-content">
+          <div class="launch-grid" aria-label="Core Rules sections">
+          <button class="launcher" type="button" data-app="Rules" data-route="rules" data-href="/core-rules/rules" aria-pressed="false">
+            <span class="label">Rules</span>
+            <span class="section-tag">Reference</span>
+
+          </button>
+
+          <button class="launcher" type="button" data-app="Stratagems" data-route="stratagems" data-href="/core-rules/stratagems" aria-pressed="false">
+            <span class="label">Stratagems</span>
+            <span class="section-tag">Tactics</span>
+
+          </button>
+
+          <button class="launcher" type="button" data-app="FAQ" data-route="faq" data-href="/core-rules/faq" aria-pressed="false">
+            <span class="label">FAQ</span>
+            <span class="section-tag">Updates</span>
+
+          </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="taskbar" aria-label="Desktop taskbar">
+      <a class="start-button" href="/">
+        <span class="start-mark" aria-hidden="true">
+          <img class="start-art" src="/assets/icons/start.png" alt="">
+        </span>
+        Start
+      </a>
+      <form class="taskbar-search" role="search" autocomplete="off">
+        <label class="visually-hidden" for="taskbar-search-input">Search</label>
+        <input id="taskbar-search-input" class="taskbar-search-input" type="search" name="q" placeholder="Search" aria-label="Search" aria-expanded="false" aria-controls="taskbar-search-results" autocomplete="off" spellcheck="false">
+        <div id="taskbar-search-results" class="taskbar-search-results" role="list" hidden></div>
+      </form>
+    </footer>
+  </main>
+
+  <script src="/static/win-scrollbars.js" defer></script>
+  <script src="/static/taskbar-search.js" defer></script>
+  <script src="/static/codex.js" defer></script>
+</body>
+</html>
