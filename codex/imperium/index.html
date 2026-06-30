@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imperium - HereticTools</title>
+  <link rel="stylesheet" href="/static/desktop.css">
+  <link rel="stylesheet" href="/static/codex.css">
+  <meta name="heretic-base-path" content="">
+  <meta name="heretic-search-index" content="/search-index.json">
+</head>
+<body>
+  <main class="desktop codex-page faction-list-page many-buttons-page">
+    <section class="shell" aria-label="Imperium">
+      <div class="title-bar " role="button" tabindex="0" aria-label="Back to Codex" title="Back to Codex" data-up-href="/codex">
+        <div class="title">Imperium</div>
+        <div class="title-controls" aria-hidden="true">
+          <span class="title-control">x</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-content">
+          <div class="launch-grid" aria-label="Faction sections">
+          <button class="launcher has-faction-image" type="button" data-app="Adepta Sororitas" data-route="adepta-sororitas" data-href="/codex/faction/adepta-sororitas" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/adepta-sororitas__aee1b46d__roster-header.png" alt=""></span>
+
+            <span class="label">Adepta Sororitas</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Adeptus Astartes" data-route="adeptus-astartes" data-href="/codex/imperium/adeptus-astartes" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/adeptus-astartes__01623188__roster-header.png" alt=""></span>
+
+            <span class="label">Adeptus Astartes</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Adeptus Custodes" data-route="adeptus-custodes" data-href="/codex/faction/adeptus-custodes" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/adeptus-custodes__6cc4ee5e__roster-header.png" alt=""></span>
+
+            <span class="label">Adeptus Custodes</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Adeptus Mechanicus" data-route="adeptus-mechanicus" data-href="/codex/faction/adeptus-mechanicus" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/adeptus-mechanicus__60ecf26b__roster-header.png" alt=""></span>
+
+            <span class="label">Adeptus Mechanicus</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Adeptus Titanicus" data-route="adeptus-titanicus" data-href="/codex/faction/adeptus-titanicus" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/adeptus-titanicus__fec6e6a5__roster-header.png" alt=""></span>
+
+            <span class="label">Adeptus Titanicus</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Agents of the Imperium" data-route="agents-of-the-imperium" data-href="/codex/faction/agents-of-the-imperium" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/agents-of-the-imperium__2f81671f__roster-header.png" alt=""></span>
+
+            <span class="label">Agents of the Imperium</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Astra Militarum" data-route="astra-militarum" data-href="/codex/faction/astra-militarum" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/astra-militarum__9b847488__roster-header.png" alt=""></span>
+
+            <span class="label">Astra Militarum</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Imperial Knights" data-route="imperial-knights" data-href="/codex/faction/imperial-knights" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/imperial-knights__5737b3b6__roster-header.png" alt=""></span>
+
+            <span class="label">Imperial Knights</span>
+          </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="taskbar" aria-label="Desktop taskbar">
+      <a class="start-button" href="/">
+        <span class="start-mark" aria-hidden="true">
+          <img class="start-art" src="/assets/icons/start.png" alt="">
+        </span>
+        Start
+      </a>
+      <form class="taskbar-search" role="search" autocomplete="off">
+        <label class="visually-hidden" for="taskbar-search-input">Search</label>
+        <input id="taskbar-search-input" class="taskbar-search-input" type="search" name="q" placeholder="Search" aria-label="Search" aria-expanded="false" aria-controls="taskbar-search-results" autocomplete="off" spellcheck="false">
+        <div id="taskbar-search-results" class="taskbar-search-results" role="list" hidden></div>
+      </form>
+    </footer>
+  </main>
+
+  <script src="/static/win-scrollbars.js" defer></script>
+  <script src="/static/taskbar-search.js" defer></script>
+  <script src="/static/codex.js" defer></script>
+</body>
+</html>

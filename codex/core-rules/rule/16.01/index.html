@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>16.01 Performing Actions - HereticTools</title>
+  <link rel="stylesheet" href="/static/desktop.css">
+  <link rel="stylesheet" href="/static/codex.css">
+  <meta name="heretic-base-path" content="">
+  <meta name="heretic-search-index" content="/search-index.json">
+</head>
+<body>
+  <main class="desktop codex-page core-rule-page">
+    <section class="shell" aria-label="16.01 Performing Actions">
+      <div class="title-bar " role="button" tabindex="0" aria-label="Back to Core Rules" title="Back to Core Rules" data-up-href="/codex/core-rules">
+        <div class="title">16.01 Performing Actions</div>
+        <div class="title-controls" aria-hidden="true">
+          <span class="title-control">x</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-content">
+<article class="codex-content core-rule-content"><section class="rule-card"><p>Some rules allow units to perform <strong>actions</strong>. Each <strong>action</strong> states:</p><p>▪ <strong>STARTS</strong>: When it is started.<br>▪ <strong>UNITS</strong>: Which friendly units can perform it.<br>▪ <strong>USE LIMIT</strong>: How many times friendly units can start it.<br>▪ <strong>COMPLETES</strong>: When it completes.<br>▪ <strong>EFFECT</strong>: What the effects of completing it are.<br>▪ Any additional restrictions that may apply.</p><p><strong>STARTING AN ACTION</strong></p><p>A unit is<strong>eligible to start an action</strong> unless one or more of the following apply to that unit:</p><p>▪ It is not on the battlefield.<br>▪ It is an <strong>AIRCRAFT/FORTIFICATION</strong> unit.<br>▪ It is <strong>battle-shocked</strong>.<br>▪ It has an <strong>OC</strong> characteristic of 0 or ‘-’.<br>▪ It is <strong>engaged</strong> (unless it is a <strong>TITANIC</strong> unit).<br>▪ It made an <strong>advance</strong> or<strong>fall-back</strong> move this turn.<br>▪ It started another <strong>action</strong> this turn.</p><p>If a unit starts an <strong>action</strong>, until the end of the turn:</p><p>▪ It is not <strong>eligible to shoot</strong> (excluding TITANIC units).<br>▪ It is not <strong>eligible to declare a charge.</strong></p><p><strong>COMPLETING AN ACTION</strong></p><p>If a unit performing an <strong>action</strong> makes a move (excluding <strong>pile-in</strong> and <strong>consolidation moves</strong>) or leaves the battlefield, that unit does not complete that <strong>action</strong>. Otherwise, when an <strong>action</strong> is completed, its ‘Effect’ section is triggered.</p></section><section class="codex-content faq-section"><section class="rule-card faq-card question-card"><div class="faq-card-kicker">FAQ</div><div class="faq-question"><p>If a unit has a rule that allows it to <strong>start an action</strong> when it is <strong>battle-shocked</strong> can it also continue doing that action if it becomes <strong>battle-shocked</strong> after starting an <strong>action</strong>?</p></div><div class="faq-answer"><p>Yes</p></div></section><section class="rule-card faq-card question-card"><div class="faq-card-kicker">FAQ</div><div class="faq-question"><p>If a unit becomes <strong>battle-shocked</strong> after <strong>starting an action</strong> does it stop performing that <strong>action</strong>?</p></div><div class="faq-answer"><p>Yes</p></div></section></section></article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="taskbar" aria-label="Desktop taskbar">
+      <a class="start-button" href="/">
+        <span class="start-mark" aria-hidden="true">
+          <img class="start-art" src="/assets/icons/start.png" alt="">
+        </span>
+        Start
+      </a>
+      <form class="taskbar-search" role="search" autocomplete="off">
+        <label class="visually-hidden" for="taskbar-search-input">Search</label>
+        <input id="taskbar-search-input" class="taskbar-search-input" type="search" name="q" placeholder="Search" aria-label="Search" aria-expanded="false" aria-controls="taskbar-search-results" autocomplete="off" spellcheck="false">
+        <div id="taskbar-search-results" class="taskbar-search-results" role="list" hidden></div>
+      </form>
+    </footer>
+  </main>
+
+  <script src="/static/win-scrollbars.js" defer></script>
+  <script src="/static/taskbar-search.js" defer></script>
+  <script src="/static/codex.js" defer></script>
+</body>
+</html>

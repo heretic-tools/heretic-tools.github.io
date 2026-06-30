@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adeptus Titanicus - HereticTools</title>
+  <link rel="stylesheet" href="/static/desktop.css">
+  <link rel="stylesheet" href="/static/codex.css">
+  <meta name="heretic-base-path" content="">
+  <meta name="heretic-search-index" content="/search-index.json">
+</head>
+<body>
+  <main class="desktop codex-page faction-home-page">
+    <section class="shell" aria-label="Adeptus Titanicus">
+      <div class="title-bar faction-hero-title" role="button" tabindex="0" aria-label="Back to Factions" title="Back to Factions" data-up-href="/codex/imperium" style="--faction-hero-image: url('/assets/faction-images/adeptus-titanicus__fec6e6a5__roster-header.png');">
+        <div class="title">Adeptus Titanicus</div>
+        <div class="title-controls" aria-hidden="true">
+          <span class="title-control">x</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-content">
+          <div class="launch-grid" aria-label="Adeptus Titanicus sections">
+          <button class="launcher" type="button" data-app="Army Rule" data-route="army-rule" data-href="/codex/faction/adeptus-titanicus/army-rule" aria-pressed="false">
+            <span class="label">Army Rule</span>
+            <span class="section-tag">Reference</span>
+
+          </button>
+
+          <button class="launcher" type="button" data-app="Detachments" data-route="detachments" data-href="/codex/faction/adeptus-titanicus/detachments" aria-pressed="false">
+            <span class="label">Detachments</span>
+            <span class="section-tag">Forces</span>
+
+          </button>
+
+          <button class="launcher" type="button" data-app="Data Sheets" data-route="datasheets" data-href="/codex/faction/adeptus-titanicus/datasheets" aria-pressed="false">
+            <span class="label">Data Sheets</span>
+            <span class="section-tag">Units</span>
+
+          </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="taskbar" aria-label="Desktop taskbar">
+      <a class="start-button" href="/">
+        <span class="start-mark" aria-hidden="true">
+          <img class="start-art" src="/assets/icons/start.png" alt="">
+        </span>
+        Start
+      </a>
+      <form class="taskbar-search" role="search" autocomplete="off">
+        <label class="visually-hidden" for="taskbar-search-input">Search</label>
+        <input id="taskbar-search-input" class="taskbar-search-input" type="search" name="q" placeholder="Search" aria-label="Search" aria-expanded="false" aria-controls="taskbar-search-results" autocomplete="off" spellcheck="false">
+        <div id="taskbar-search-results" class="taskbar-search-results" role="list" hidden></div>
+      </form>
+    </footer>
+  </main>
+
+  <script src="/static/win-scrollbars.js" defer></script>
+  <script src="/static/taskbar-search.js" defer></script>
+  <script src="/static/codex.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xenos - HereticTools</title>
+  <link rel="stylesheet" href="/static/desktop.css">
+  <link rel="stylesheet" href="/static/codex.css">
+  <meta name="heretic-base-path" content="">
+  <meta name="heretic-search-index" content="/search-index.json">
+</head>
+<body>
+  <main class="desktop codex-page faction-list-page many-buttons-page">
+    <section class="shell" aria-label="Xenos">
+      <div class="title-bar " role="button" tabindex="0" aria-label="Back to Codex" title="Back to Codex" data-up-href="/codex">
+        <div class="title">Xenos</div>
+        <div class="title-controls" aria-hidden="true">
+          <span class="title-control">x</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-content">
+          <div class="launch-grid" aria-label="Faction sections">
+          <button class="launcher has-faction-image" type="button" data-app="Asuryani" data-route="asuryani" data-href="/codex/faction/asuryani" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/asuryani__2cb72f92__roster-header.png" alt=""></span>
+
+            <span class="label">Asuryani</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Drukhari" data-route="drukhari" data-href="/codex/faction/drukhari" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/drukhari__43bbfe97__roster-header.png" alt=""></span>
+
+            <span class="label">Drukhari</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Genestealer Cults" data-route="genestealer-cults" data-href="/codex/faction/genestealer-cults" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/genestealer-cults__800c0387__roster-header.png" alt=""></span>
+
+            <span class="label">Genestealer Cults</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Leagues of Votann" data-route="leagues-of-votann" data-href="/codex/faction/leagues-of-votann" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/leagues-of-votann__a42808ab__roster-header.png" alt=""></span>
+
+            <span class="label">Leagues of Votann</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Necrons" data-route="necrons" data-href="/codex/faction/necrons" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/necrons__47670bc3__roster-header.png" alt=""></span>
+
+            <span class="label">Necrons</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Orks" data-route="orks" data-href="/codex/faction/orks" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/orks__0b30f1e3__roster-header.png" alt=""></span>
+
+            <span class="label">Orks</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="Tyranids" data-route="tyranids" data-href="/codex/faction/tyranids" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/tyranids__b30b3258__roster-header.png" alt=""></span>
+
+            <span class="label">Tyranids</span>
+          </button>
+
+          <button class="launcher has-faction-image" type="button" data-app="T’au Empire" data-route="tau-empire" data-href="/codex/faction/tau-empire" aria-pressed="false">
+            <span class="faction-art-frame" aria-hidden="true"><img class="faction-art" src="/assets/faction-images/tau-empire__1a241f8e__roster-header.png" alt=""></span>
+
+            <span class="label">T’au Empire</span>
+          </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="taskbar" aria-label="Desktop taskbar">
+      <a class="start-button" href="/">
+        <span class="start-mark" aria-hidden="true">
+          <img class="start-art" src="/assets/icons/start.png" alt="">
+        </span>
+        Start
+      </a>
+      <form class="taskbar-search" role="search" autocomplete="off">
+        <label class="visually-hidden" for="taskbar-search-input">Search</label>
+        <input id="taskbar-search-input" class="taskbar-search-input" type="search" name="q" placeholder="Search" aria-label="Search" aria-expanded="false" aria-controls="taskbar-search-results" autocomplete="off" spellcheck="false">
+        <div id="taskbar-search-results" class="taskbar-search-results" role="list" hidden></div>
+      </form>
+    </footer>
+  </main>
+
+  <script src="/static/win-scrollbars.js" defer></script>
+  <script src="/static/taskbar-search.js" defer></script>
+  <script src="/static/codex.js" defer></script>
+</body>
+</html>
